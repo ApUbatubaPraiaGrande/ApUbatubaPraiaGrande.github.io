@@ -210,11 +210,28 @@ nav.show div.icon-cross {
    text-align: justify;
  }
 
- #about .i{
+ #about .i {
   margin-left: 1.5rem;
   margin-right: 1.5rem;
   margin-bottom: 1.5rem;
   text-align: center;
+}
+
+#about .coluna {
+  float: left;
+  width: 50%;
+}
+
+#about .row {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+@media screen and (max-width: 500px) {
+  .column {
+    width: 100%;
+  }
 }
 
 #about .texto h1 {
