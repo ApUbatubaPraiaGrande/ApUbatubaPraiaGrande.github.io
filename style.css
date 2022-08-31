@@ -217,12 +217,12 @@ nav.show div.icon-cross {
   text-align: center;
 }
 
-#about .coluna {
+#photos .coluna {
   float: left;
-  width: 50%;
+  width: 100%;
 }
 
-#about .row {
+#photos .row {
   content: "";
   clear: both;
   display: table;
@@ -260,6 +260,19 @@ color: #5d5d5d;
 margin-bottom: 1.5rem;
 
 }
+
+#photos .texto h1 {
+
+  margin-left: 4rem;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 45px;
+  text-align: left;
+  color: #000000;
+  margin-bottom: 1rem;
+  }
 
 .justify-text {
   text-align: center;
